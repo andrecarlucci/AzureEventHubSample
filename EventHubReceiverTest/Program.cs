@@ -23,13 +23,13 @@ namespace EventHubReceiverTest {
 
             receiver.SetReceiveHandler(new PartitionReceiveHandler());
 
-            Task.Factory.StartNew(async () => {
-                while (_receive) {
-                    Console.WriteLine("Waiting");
-                    var msgs = await receiver.ReceiveAsync(200);
-                    msgs.ConsoleWrite();
-                }
-            });
+            //Task.Factory.StartNew(async () => {
+            //    while (_receive) {
+            //        Console.WriteLine("Waiting");
+            //        var msgs = await receiver.ReceiveAsync(200);
+            //        msgs.ConsoleWrite();
+            //    }
+            //});
             
             Console.WriteLine("Press any key to stop");
             Console.ReadLine();
