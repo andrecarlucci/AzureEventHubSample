@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace EventHubTest {
     class Program {
-        private const string _connectionString = "Endpoint=sb://powerhub-event-hub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=iOBuwz43glBQ0rOhd9I1kC1o4k2ot6HLqKQ8C+Op+4c=;EntityPath=powerhub-timeseries";
+        private const string _connectionString = "";
 
         private static EventHubClient _eventHubClient;
         

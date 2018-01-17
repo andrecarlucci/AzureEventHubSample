@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EventHubReceiverTest {
     partial class Program {
 
-        private const string _connectionString = "foo";
+        private const string _connectionString = "";
         private static bool _receive = true;
 
         static async Task Main(string[] args) {
