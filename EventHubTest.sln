@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27205.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubTest", "EventHubTest\EventHubTest.csproj", "{D8D170A4-A0C4-4729-BA00-07A723B66A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubReceiverTest", "EventHubReceiverTest\EventHubReceiverTest.csproj", "{E47481E9-FBA4-4A81-BD7D-DE77D60566A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D8D170A4-A0C4-4729-BA00-07A723B66A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8D170A4-A0C4-4729-BA00-07A723B66A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8D170A4-A0C4-4729-BA00-07A723B66A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47481E9-FBA4-4A81-BD7D-DE77D60566A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47481E9-FBA4-4A81-BD7D-DE77D60566A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47481E9-FBA4-4A81-BD7D-DE77D60566A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47481E9-FBA4-4A81-BD7D-DE77D60566A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
